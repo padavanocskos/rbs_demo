@@ -1,0 +1,9 @@
+class Phone
+  @country: String
+  @number: String
+
+  def initialize: (country: String, number: String) -> untyped
+  def country: -> String
+  def number: -> String
+  def ==: (Phone country) -> untyped
+end
